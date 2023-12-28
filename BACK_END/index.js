@@ -16,7 +16,7 @@ dotenv.config();
 connectDatabase()
 
 const corsOptions = {
-    origin: 'http://localhost:8080',
+    origin: 'https://fe-social.vercel.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
